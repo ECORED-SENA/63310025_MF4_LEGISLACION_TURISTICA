@@ -1,0 +1,131 @@
+.bg-color-naranja {
+    background-color: orange;
+}
+.text-white{
+    color: white;
+}
+.text-black{
+    color:black;
+}
+.text-blue{
+    color: #4DD0E0
+}
+
+.text-org{
+    color: #FA803F;    
+}
+
+.custom-item-img {
+    flex: 0 0 120px;
+    overflow: hidden;
+    margin-right: 2rem;
+}
+
+.img-a {
+    display:block;
+    margin:auto;
+}
+
+// Estilos tema 1
+
+.bg-color-1{
+    background-color: #FFECB3;
+    
+}
+
+.border-radius{
+    border-radius: 10px;
+}
+
+.border-radius-color{
+    border-radius: 10px;
+    border: 5px solid #E4F39B;
+}
+
+.border-radius-color-orange{
+    border-radius: 10px;
+    border: 5px solid #D3A518;
+}
+
+.border-radius-top{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.border-radius-down{
+    border-radius: 0px 0px 10px 10px;
+}
+
+// Estolos tema 2
+
+.card-row{
+    display: flex;
+    align-items: center;
+}
+
+.z-index{
+    z-index: 2 
+}
+
+.img-position{
+    width: 100%;
+    position: initial;
+    margin-left: 50%;
+}
+
+.text-position{
+    background-color: #FEEFB2;
+    padding: 15px 15px 15px 100px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.row-color{
+    background-color:#CBD9E4;
+}
+
+.bd-hr{
+    border: 1px solid #002B45;
+}
+
+.bd-hr-orange{
+    border: 1px solid #FA803F;
+}
+
+.color-orange{
+     background-color: #FA803F;
+}
+
+.text-fz{
+    font-size: 2rem;
+}
+
+.color-blue{
+    background-color: #AFDDDB;    
+}
+.bg-color-note-1{
+    background-color: #F7FFD1;
+}
+
+.row-color-1{
+    background-color:#707070;
+}
+.mx{
+    max-width: 70%;
+}
+.subtitulo-guion {
+    h2,h3 {
+        overflow: hidden;
+        font-weight: 700;
+    }
+
+    h2:after,h3:after {
+        content:"";
+        display: inline-block;
+        height: 0.5em;
+        vertical-align: bottom;
+        width: 100%;
+        margin-right: -100%;
+        margin-left: 10px;
+        border-top: 1px solid $orange;
+    }
+}
