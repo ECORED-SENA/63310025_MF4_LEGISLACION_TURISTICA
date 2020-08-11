@@ -51,7 +51,7 @@
     "id": 3,
     "icon": "fa fa-file-text-o",
     "slug": "marketing",
-    "title": "2. Marketing y promoción turística",
+    "title": "2. <i>Marketing</i> y promoción turística",
     "breadcrumb": ["Inicio","Tema 2"],
     "path": "pages/2-tema.html",    
     "submenu": [
